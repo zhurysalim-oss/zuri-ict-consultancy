@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
@@ -46,5 +47,16 @@ export default function App() {
         <p>© {new Date().getFullYear()} Zuri Salim ICT Consultancy. All rights reserved.</p>
       </footer>
     </div>
+=======
+import React from "react";
+
+export default function App() {
+  return (
+    <main>
+      {/* Replace with HomePage component */}
+      <h1>Zuri Salim ICT Consultancy</h1>
+      <p>Welcome to our homepage.</p>
+    </main>
+>>>>>>> 38548beacba8f7bdef3c934daf07df012921e02c
   );
 }
